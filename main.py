@@ -3,6 +3,7 @@ class firstClass:
     val2 = 0
 
 
-print('firstClass',firstClass)
-print('firstClass.val1',firstClass.val1)
-print('firstClass.val2',firstClass.val2)
+f1 = firstClass()
+
+print('f1.val1 = ', f1.val1)
+print(f'f1.val2 =  {f1.val2}')
